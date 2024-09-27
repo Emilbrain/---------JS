@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.posts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.section {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.post {
+    cursor: pointer;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.btn {
+    background-color: #ddd;
+    font-weight: 700;
+    font-size: 18px;
+    text-decoration: none;
+    text-align: center;
+    padding: 13px 0;
+    display: block;
+    color: black;
+}

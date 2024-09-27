@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.block {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}
+
+
+#phoneModal {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 20px;
+    background-color: white;
+    border: 2px solid #000000;
+    z-index: 1000;
+}
+
+#phoneModal p {
+    margin: 0;
+    font-size: 18px;
+}
+
+#closeModal {
+    margin-top: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: #9900ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
